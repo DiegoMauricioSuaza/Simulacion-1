@@ -1,0 +1,18 @@
+# Dependencias para proyectos con Cadenas y Modelos de Markov
+
+# Núcleo y cálculo numérico
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+networkx>=3.0.0  # Muy útil para graficar grafos de transición de estados
+
+# Librerías específicas según el tipo de modelo Markov:
+# markovify>=0.9.4      # Para cadenas de texto y generación de secuencias
+# hmmlearn>=0.3.0       # Para Modelos Ocultos de Markov (HMM)
+# pomegranate>=1.0.0    # Modelos probabilísticos y HMM flexibles
+# pymc>=5.0.0           # Para MCMC (Markov Chain Monte Carlo)
+# pymdptoolbox>=4.0b3   # Para Procesos de Decisión de Markov (MDP)
